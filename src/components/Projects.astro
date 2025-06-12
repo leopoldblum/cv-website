@@ -6,11 +6,14 @@ import LayoutBulletpoint from "../layouts/LayoutBulletpoint.astro";
 <LayoutCards title="Projects">
     <LayoutBulletpoint firmName="" date="" location="">
         <div slot="title">
-            <a
-                href="https://todos.leopold-blum.de/"
-                class="hover:underline"
-                target="_blank">Todo App</a
-            >
+            <a href="https://todos.leopold-blum.de/" target="_blank">
+                <div class="flex flex-row">
+                    <div class="hover:underline underline-offset-4">
+                        Todo App
+                    </div>
+                    <div class="text-text-secondary ml-1">↗</div>
+                </div>
+            </a>
         </div>
 
         <ul class="list-disc pl-5">
