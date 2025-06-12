@@ -1,0 +1,32 @@
+---
+import LayoutCards from "../layouts/LayoutCards.astro";
+import LayoutBulletpoint from "../layouts/LayoutBulletpoint.astro";
+---
+
+<LayoutCards title="Projects">
+    <LayoutBulletpoint firmName="" date="" location="">
+        <div slot="title">
+            <a
+                href="https://todos.leopold-blum.de/"
+                class="hover:underline"
+                target="_blank">Todo App</a
+            >
+        </div>
+
+        <ul class="list-disc pl-5">
+            <li>
+                Built a fullstack Todo app with CRUD functionality and
+                persistent storage via localStorage and backend ID mapping.
+            </li>
+            <li>
+                Implemented optimistic UI updates, smooth animations, and
+                responsive design with dark mode support for an enhanced user
+                experience.
+            </li>
+            <li>
+                Used ULIDs for sortable IDs and ensured mobile-optimized,
+                user-centric performance.
+            </li>
+        </ul>
+    </LayoutBulletpoint>
+</LayoutCards>

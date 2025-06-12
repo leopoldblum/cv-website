@@ -4,15 +4,27 @@ import LayoutBulletpoint from "../layouts/LayoutBulletpoint.astro";
 ---
 
 <LayoutCards title="Skills">
-    <LayoutBulletpoint title="Frontend">
-        HTML, CSS, TailwindCSS, React, TanstackQuery, Astro
+    <LayoutBulletpoint
+        firmName="HTML, CSS, TailwindCSS, React, TanstackQuery, Astro"
+        date=""
+        location=""
+    >
+        <div slot="title">Frontend</div>
     </LayoutBulletpoint>
 
-    <LayoutBulletpoint title="Backend">
-        RestAPIs, PostgreSQL
+    <LayoutBulletpoint firmName="RestAPIs, PostgreSQL" date="" location="">
+        <div slot="title">Backend</div>
     </LayoutBulletpoint>
 
-    <LayoutBulletpoint title="Additionally">
-        Java, Microsoft Office Suite
+    <LayoutBulletpoint
+        firmName="Java, Microsoft Office Suite"
+        date=""
+        location=""
+    >
+        <div slot="title">Additionally</div>
+    </LayoutBulletpoint>
+
+    <LayoutBulletpoint firmName="German (native), English (fluent)">
+        <div slot="title">Natural Languages</div>
     </LayoutBulletpoint>
 </LayoutCards>

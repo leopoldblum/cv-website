@@ -5,27 +5,34 @@ import LayoutBulletpoint from "../layouts/LayoutBulletpoint.astro";
 
 <LayoutCards title="Education">
     <LayoutBulletpoint
-        title="B.Sc. Informatik"
         firmName="Technische Universität Berlin"
         date="since 2020"
         location="Berlin, Germany"
     >
-        anticipated graduation in 4 semesters
+        <div slot="title">B.Sc. Informatik</div>
+
+        <ul class="list-disc pl-5">
+            <li>anticipated graduation in 4 semesters</li>
+        </ul>
     </LayoutBulletpoint>
 
     <LayoutBulletpoint
-        title="Orientierungsstudium MintGrün"
         firmName="Technische Universität Berlin"
         date="2019 - 2020"
         location="Berlin, Germany"
     >
-        focus on java and algorithms
+        <div slot="title">Orientierungsstudium MintGrün</div>
 
-        <LayoutBulletpoint
-            title="Abitur"
-            firmName="Leibniz Gymnasium"
-            date="2013 - 2019"
-            location="Berlin, Germany"
-        />
+        <ul class="list-disc pl-5">
+            <li>focus on java and algorithms</li>
+        </ul>
+    </LayoutBulletpoint>
+
+    <LayoutBulletpoint
+        firmName="Leibniz Gymnasium"
+        date="2013 - 2019"
+        location="Berlin, Germany"
+    >
+        <div slot="title">Abitur</div>
     </LayoutBulletpoint>
 </LayoutCards>

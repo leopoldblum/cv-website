@@ -5,12 +5,17 @@ import LayoutBulletpoint from "../layouts/LayoutBulletpoint.astro";
 
 <LayoutCards title="Work Experience">
     <LayoutBulletpoint
-        title="Event Support & Service Staff"
         firmName="Chamaeleo EventSupport GmbH"
         date="05/2023 - 03/2024"
         location="Berlin, Germany"
     >
-        supported event setup, logistics, and guest service in a dynamic, team-
-        oriented environment requiring strong stress resilience
+        <div slot="title">Event Support & Service Staff</div>
+        <ul class="list-disc pl-5">
+            <li>
+                supported event setup, logistics, and guest service in a
+                dynamic, team- oriented environment requiring strong stress
+                resilience
+            </li>
+        </ul>
     </LayoutBulletpoint>
 </LayoutCards>

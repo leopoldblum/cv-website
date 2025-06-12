@@ -1,11 +1,13 @@
 ---
-const { title, firmName, date, location } = Astro.props;
+const { firmName, date, location } = Astro.props;
 ---
 
 <div class="p-2 pl-0">
-    <div class="flex justify-between break-normal mb-1">
+    <div class="flex justify-between break-normal">
         <div class="flex flex-col flex-grow">
-            <h1 class="text-text-main">{title}</h1>
+            <h1 class="text-text-main">
+                <slot name="title" />
+            </h1>
             <h2 class="text-text-secondary">{firmName}</h2>
         </div>
 
@@ -15,7 +17,7 @@ const { title, firmName, date, location } = Astro.props;
         </div>
     </div>
 
-    <h2 class="text-text-secondary">
+    <h2 class="text-text-secondary mt-1">
         <slot />
     </h2>
 </div>
