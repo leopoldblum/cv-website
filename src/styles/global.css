@@ -4,3 +4,7 @@
     --color-text-main: rgb(240, 240, 240);
     --color-text-secondary: rgb(185, 185, 185);
 }
+
+:root {
+    background-color: rgb(39 39 42);
+}
