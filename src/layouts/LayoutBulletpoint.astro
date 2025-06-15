@@ -13,7 +13,9 @@ const { firmName, date, location } = Astro.props;
 
         <div class="flex-none ml-4 lg:ml-20">
             <h2 class="text-text-main text-right">{date}</h2>
-            <h2 class="text-text-secondary text-right">{location}</h2>
+            <h2 class="text-text-secondary text-right hidden lg:block">
+                {location}
+            </h2>
         </div>
     </div>
 
