@@ -6,12 +6,31 @@ import LayoutBulletpoint from "../layouts/LayoutBulletpoint.astro";
 <LayoutCards title="Projects">
     <LayoutBulletpoint firmName="" date="" location="">
         <div slot="title">
-            <a href="https://todos.leopold-blum.de/" target="_blank">
+            <a
+                href="https://todos.leopold-blum.de/"
+                target="_blank"
+                class="hover:underline underline-offset-4"
+            >
                 <div class="flex flex-row">
-                    <div class="hover:underline underline-offset-4">
-                        Todo App
+                    <div>Todo App</div>
+                    <div
+                        class="text-text-secondary ml-2 flex justify-center items-center"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-3"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                            ></path>
+                        </svg>
                     </div>
-                    <div class="text-text-secondary ml-1">↗</div>
                 </div>
             </a>
         </div>
@@ -31,12 +50,27 @@ import LayoutBulletpoint from "../layouts/LayoutBulletpoint.astro";
 
     <LayoutBulletpoint firmName="" date="" location="">
         <div slot="title">
-            <a href=".">
+            <a href="." class="hover:underline underline-offset-4">
                 <div class="flex flex-row">
-                    <div class="hover:underline underline-offset-4">
-                        CV Website
+                    <div>CV Website</div>
+                    <div
+                        class="text-text-secondary ml-2 flex justify-center items-center"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-3"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                            ></path>
+                        </svg>
                     </div>
-                    <div class="text-text-secondary ml-1">↗</div>
                 </div>
             </a>
         </div>
