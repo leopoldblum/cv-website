@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 @import "tailwindcss";
 
 @theme {
     --color-text-main: rgb(240, 240, 240);
     --color-text-secondary: rgb(185, 185, 185);
+
+    --font-play: "Play", "sans-serif"
 }
 
 :root {
