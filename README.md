@@ -1,21 +1,21 @@
 # CV Website
 
-A minimalist, fast-loading CV site built with Astro and Tailwind CSS. Fully static for instant load times and great accessibility.
+A clean, fast CV site built with Astro and Tailwind CSS. It’s fully static, lightweight, and easy to read on any device.
 
 [Check it out!](https://cv.leopold-blum.de/)
 
 ## Features
 
-Static site – pre-rendered HTML for maximum speed
+- **Fast by default** – static HTML means near-instant page loads
 
-Clean & responsive – optimized for all screen sizes
+- **Responsive design** – looks great from phones to desktops
 
-Accessible – semantic HTML and best practices built in
+- **Accessible** – built with semantic HTML
 
-No bloat – minimal JavaScript
+- **Minimal JS** – only what’s absolutely necessary
 
-Lighthouse – scores 100 across the board
+- **Perfect scores** – 100/100 on Lighthouse
 
 ## Deployment
 
-Hosted on Cloudflare Pages for global, CDN-backed delivery.
+Deployed on Cloudflare Pages, served from a global CDN.
